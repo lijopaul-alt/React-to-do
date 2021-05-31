@@ -39,6 +39,7 @@ button:hover {
     color: #ffffff;
     padding-right: 40px;
   }
+
   input {
     border-style: none;
     padding: 9px 50px;
@@ -55,5 +56,12 @@ button:hover {
     background-color: blueviolet;
     color: #ffff;
     -webkit-transition: all 500ms ease;
+  }
+}
+
+@media (max-width: 365px) {
+  button {
+    margin-top: 10px;
+    padding: 5px 50px;
   }
 }
