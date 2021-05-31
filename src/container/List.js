@@ -11,10 +11,7 @@ class List extends Component {
     },
     loading: false,
   };
-  componentDidMount() {
-    const items = JSON.parse(localStorage.getItem("items"));
-    this.setState({ items: items });
-  }
+
   updateItem = (event) => {
     event.preventDefault();
 
@@ -30,7 +27,6 @@ class List extends Component {
       this.setState({ loading: true });
 
       const newItem = [...this.state.items, newCurrentItem];
-      localStorage.setItem("items", JSON.stringify(newItem));
 
       setTimeout(() => {
         this.setState({
