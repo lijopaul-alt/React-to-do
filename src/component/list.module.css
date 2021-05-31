@@ -1,0 +1,41 @@
+.list {
+  background-color: bisque;
+  width: 330px;
+  text-align: center;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 10px;
+}
+p {
+  font-weight: 600;
+  letter-spacing: 0.1cm;
+  width: 250px;
+}
+span {
+  justify-self: flex-end;
+  padding-top: 10px;
+}
+
+@media (max-width: 700px) {
+  .list {
+    background-color: blueviolet;
+    width: 330px;
+    text-align: center;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 10px;
+  }
+  p {
+    font-weight: 600;
+    letter-spacing: 0.1cm;
+    width: 250px;
+    color: #ffff;
+  }
+  span {
+    justify-self: flex-end;
+    padding-top: 15px;
+    color: #ffff;
+  }
+}
