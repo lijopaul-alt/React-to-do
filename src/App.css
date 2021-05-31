@@ -33,7 +33,7 @@ button:hover {
     background-color: #02020b;
   }
   .App {
-    width: 350px;
+    width: 100vw;
   }
   h1 {
     color: #ffffff;
