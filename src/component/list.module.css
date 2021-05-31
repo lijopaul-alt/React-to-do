@@ -26,6 +26,7 @@ span {
     display: flex;
     justify-content: space-evenly;
     border-radius: 10px;
+    padding-right: 4px;
   }
   p {
     font-weight: 600;
